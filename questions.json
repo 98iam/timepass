@@ -1,0 +1,737 @@
+[
+  {
+    "id": 1,
+    "section": "General Awareness",
+    "question": "Rudrasena II of which of the following dynasties married Prabhavatigupta, the daughter of Chandragupta II of the Gupta dynasty?",
+    "options": ["Pushyabhuti", "Vakataka", "Chalukya", "Pallava"],
+    "correct_option": 2
+  },
+  {
+    "id": 2,
+    "section": "General Awareness",
+    "question": "Madhuri Barthwal, a folk singer and Padma Shri 2022 awardee, belongs to which of the following states of India?",
+    "options": ["Uttarakhand", "Himachal Pradesh", "Uttar Pradesh", "Maharashtra"],
+    "correct_option": 1
+  },
+  {
+    "id": 3,
+    "section": "General Awareness",
+    "question": "Which of the following options is the legislative organ of the Union government?",
+    "options": ["Judiciary", "Legislative Assembly", "Executive", "Parliament"],
+    "correct_option": 4
+  },
+  {
+    "id": 4,
+    "section": "General Awareness",
+    "question": "Which of the following elements is a metalloid?",
+    "options": ["Iron", "Oxygen", "Sodium", "Silicon"],
+    "correct_option": 4
+  },
+  {
+    "id": 5,
+    "section": "General Awareness",
+    "question": "Which country has the Republic feature of the Indian Constitution been borrowed from?",
+    "options": ["French Constitution", "Irish Constitution", "British Constitution", "Australian Constitution"],
+    "correct_option": 1
+  },
+  {
+    "id": 6,
+    "section": "General Awareness",
+    "question": "Which of the following States has declared a social security scheme for registered newspaper hawkers in the State in 2021?",
+    "options": ["Gujarat", "Maharashtra", "Odisha", "Tamil Nadu"],
+    "correct_option": 3
+  },
+  {
+    "id": 7,
+    "section": "General Awareness",
+    "question": "Which of the following is the main cause of land degradation in Jharkhand and Chhattisgarh?",
+    "options": ["Intensive use of manure", "Over-irrigation", "Deforestation due to mining", "Overgrazing"],
+    "correct_option": 3
+  },
+  {
+    "id": 8,
+    "section": "General Awareness",
+    "question": "The Accelerated Female Literacy Programme was initiated in districts where the female literacy rate, based on the 2001 census, was ____.",
+    "options": ["below 35%", "below 45%", "below 30%", "below 50%"],
+    "correct_option": 1
+  },
+  {
+    "id": 9,
+    "section": "General Awareness",
+    "question": "As of 2021, which is the world's largest drainage basin with an area of about 7,000,000 km²?",
+    "options": ["Congo basin", "Amur basin", "Amazon basin", "Nile basin"],
+    "correct_option": 3
+  },
+  {
+    "id": 10,
+    "section": "General Awareness",
+    "question": "National Sports University is situated in?",
+    "options": ["Mizoram", "Tripura", "Meghalaya", "Manipur"],
+    "correct_option": 4
+  },
+  {
+    "id": 11,
+    "section": "General Awareness",
+    "question": "Which of the following characteristics is NOT of Aves?",
+    "options": [
+      "They have four-chambered hearts.",
+      "They give birth to live young ones with some exceptions that lay eggs.",
+      "These are warm-blooded animals.",
+      "They breathe through the lungs."
+    ],
+    "correct_option": 2
+  },
+  {
+    "id": 12,
+    "section": "General Awareness",
+    "question": "In which of the following states is the development of rail transport less due to its geographical conditions?",
+    "options": ["Sikkim", "Haryana", "Bihar", "Uttar Pradesh"],
+    "correct_option": 1
+  },
+  {
+    "id": 13,
+    "section": "General Awareness",
+    "question": "Which of the following books is INCORRECTLY paired with its respective author?",
+    "options": [
+      "Hind Swaraj - Mahatma Gandhi",
+      "Gitanjali - Rabindranath Tagore",
+      "The Discovery of India - Subhash Chandra Bose",
+      "Why I am an Atheist - Bhagat Singh"
+    ],
+    "correct_option": 3
+  },
+  {
+    "id": 14,
+    "section": "General Awareness",
+    "question": "Who among the following was a poet who won the Nobel Prize for Literature in 1913?",
+    "options": ["Aurobindo Ghose", "Rudyard Kipling", "Bankim Chandra Chattopadhyay", "Rabindranath Tagore"],
+    "correct_option": 4
+  },
+  {
+    "id": 15,
+    "section": "General Awareness",
+    "question": "In which year was the National Institute of Kathak Dance established?",
+    "options": ["1964", "1961", "1954", "1969"],
+    "correct_option": 1
+  },
+  {
+    "id": 16,
+    "section": "General Awareness",
+    "question": "As for the year 2020-21, which of the following states had the lowest unemployment rate among persons aged 15 years and above?",
+    "options": ["Sikkim", "Madhya Pradesh", "Gujarat", "Chhattisgarh"],
+    "correct_option": 3
+  },
+  {
+    "id": 17,
+    "section": "General Awareness",
+    "question": "When was the Indian Hockey Federation established?",
+    "options": ["1925", "1955", "1945", "1935"],
+    "correct_option": 1
+  },
+  {
+    "id": 18,
+    "section": "General Awareness",
+    "question": "Which cell organelle is defined as the small round organelle that undergoes oxidation reaction to produce hydrogen peroxide?",
+    "options": ["Centrosome", "Vacuole", "Nucleus", "Peroxisomes"],
+    "correct_option": 4
+  },
+  {
+    "id": 19,
+    "section": "General Awareness",
+    "question": "The cause of a redox reaction is the:",
+    "options": [
+      "transfer of electrons between two reactants",
+      "transfer of electrons between two products",
+      "transfer of neutrons between two reactants",
+      "exchange of halogens between two reactants"
+    ],
+    "correct_option": 1
+  },
+  {
+    "id": 20,
+    "section": "General Awareness",
+    "question": "'Sangken' is a festival celebrated in Arunachal Pradesh by people of which of the following religions?",
+    "options": ["Islam", "Buddhism", "Jainism", "Hinduism"],
+    "correct_option": 2
+  },
+  {
+    "id": 21,
+    "section": "General Awareness",
+    "question": "Which group of people will be benefited by the Mukhya Mantri Sukh Ashray Yojana approved by Himachal Pradesh?",
+    "options": [
+      "Students and teachers",
+      "Orphans, specially abled children, destitute women, and senior citizens",
+      "Unemployed youth",
+      "Farmers and agricultural labourers"
+    ],
+    "correct_option": 2
+  },
+  {
+    "id": 22,
+    "section": "General Awareness",
+    "question": "What is the aim of the PM Ujwala 2.0 Yojna launched in August 2021?",
+    "options": [
+      "Free LPG connections for commercial use",
+      "20 million LPG connections will be provided to the beneficiaries",
+      "10 million LPG connections will be provided to the beneficiaries",
+      "Free gas stove for BPL Households"
+    ],
+    "correct_option": 3
+  },
+  {
+    "id": 23,
+    "section": "General Awareness",
+    "question": "MG Music Awards is presented annually by which of the following states?",
+    "options": ["Mizoram", "Nagaland", "Manipur", "Chhattisgarh"],
+    "correct_option": null
+  },
+  {
+    "id": 24,
+    "section": "General Awareness",
+    "question": "If assets of a bank are greater than liabilities, it will be recorded as:",
+    "options": ["Liabilities", "Net worth", "Reserves", "Assets"],
+    "correct_option": 2
+  },
+  {
+    "id": 25,
+    "section": "General Awareness",
+    "question": "Which of the following departments of the Delhi Sultanate was reorganized by Balban?",
+    "options": ["Diwan-i-Ishtiaq", "Diwan-i-Arz", "Diwan-i-Risalat", "Diwan-i-Mustakhraj"],
+    "correct_option": 2
+  },
+  {
+    "id": 26,
+    "section": "Quantitative Aptitude",
+    "question": "If 45 + 3 +4×A -48 +24 +4 = 1, then the value of A is:",
+    "options": ["-2", "4", "2", "-4"],
+    "correct_option": 3
+  },
+  {
+    "id": 27,
+    "section": "Quantitative Aptitude",
+    "question": "What was the ratio of foreign direct investment in 2018 to that in 2015 (based on the bar graph)?",
+    "options": ["13 : 12", "12 : 11", "11 : 12", "13 : 11"],
+    "correct_option": 1
+  },
+  {
+    "id": 28,
+    "section": "Quantitative Aptitude",
+    "question": "If the length of a common external tangent to two circles is 9 and that of a common internal tangent is 5, then the product of the radii of the two circles is:",
+    "options": ["12", "8", "14", "10"],
+    "correct_option": 3
+  },
+  {
+    "id": 29,
+    "section": "Quantitative Aptitude",
+    "question": "If ΔPQR = ΔMON such that 2∠PQR = 82°, ∠QRP = 47°, ∠RPQ = 51°, 2∠MON = (5y - 8)°, QR = 24 and ON = 3x + y, then find (x + y).",
+    "options": ["14", "18", "16", "20"],
+    "correct_option": 3
+  },
+  {
+    "id": 30,
+    "section": "Quantitative Aptitude",
+    "question": "Which digits should come in place of * and #, respectively, if the 7-digit number 62684*# is divisible by both 8 and 5?",
+    "options": ["2 and 0", "4 and 0", "5 and 0", "0 and 5"],
+    "correct_option": 2
+  },
+  {
+    "id": 31,
+    "section": "Quantitative Aptitude",
+    "question": "The area of a square is 16x² + 40x + 25 square units. Find the perimeter of the square.",
+    "options": ["3(10x + 8)", "3(8x + 10)", "2(10x + 8)", "2(8x + 10)"],
+    "correct_option": 4
+  },
+  {
+    "id": 32,
+    "section": "Quantitative Aptitude",
+    "question": "The average of the squares of the first 45 natural numbers is:",
+    "options": ["698.67", "699.67", "697.67", "696.67"],
+    "correct_option": 3
+  },
+  {
+    "id": 33,
+    "section": "Quantitative Aptitude",
+    "question": "A rectangular piece of paper is 50 cm long and 22 cm wide. If a cylinder is formed by rolling the paper along its breadth, then the volume of the cylinder is:",
+    "options": ["2,125 cm³", "1,925 cm³", "2,025 cm³", "1,825 cm³"],
+    "correct_option": 2
+  },
+  {
+    "id": 34,
+    "section": "Quantitative Aptitude",
+    "question": "If x² + y² = 280 and xy = 120, then find the value of (x - y)/(x + y):",
+    "options": ["1/√13", "√15", "√13", "1/√15"],
+    "correct_option": 1
+  },
+  {
+    "id": 35,
+    "section": "Quantitative Aptitude",
+    "question": "The speed of a boat in still water is 18 km/h and the speed of the stream is 3 km/h. How much time (in hours) will it take to cover a distance of 105 km downstream and then return upstream?",
+    "options": ["12", "10", "15", "9"],
+    "correct_option": 1
+  },
+  {
+    "id": 36,
+    "section": "Quantitative Aptitude",
+    "question": "Simple interest on a certain sum is one-fifth of the sum, and the interest rate per annum is 5 times the number of years. What is the simple interest on ₹5,600 for 6 years?",
+    "options": ["4668", "4168", "4268", "4368"],
+    "correct_option": null
+  },
+  {
+    "id": 37,
+    "section": "Quantitative Aptitude",
+    "question": "A bronze article having a marked price of ₹1,000 is sold during a festive season sale after three successive discounts of 20%, 30%, and 10%. What will be the amount (in ₹) to be paid by a customer?",
+    "options": ["508", "564", "504", "496"],
+    "correct_option": 3
+  },
+  {
+    "id": 38,
+    "section": "Quantitative Aptitude",
+    "question": "Pipes P and Q can fill a tank in 10 hours and 15 hours respectively. Pipe R can empty it in 12 hours. P and Q are opened at 6 a.m., R is added at 9 a.m. By what time will the tank be full?",
+    "options": ["1 p.m.", "2 p.m.", "11 a.m.", "3 p.m."],
+    "correct_option": 4
+  },
+  {
+    "id": 39,
+    "section": "Quantitative Aptitude",
+    "question": "For what value of k will the lines 2x + 7k y – 8 = 0 and x + y – 9 = 0 have no solution?",
+    "options": ["2/7", "9/7", "8/9", "1/2"],
+    "correct_option": 1
+  },
+  {
+    "id": 40,
+    "section": "Quantitative Aptitude",
+    "question": "The radii of two circles are 5 cm and 10 cm, and the distance between their centres is 17 cm. Find the length of the transverse common tangent.",
+    "options": ["9 cm", "8 cm", "6 cm", "7.5 cm"],
+    "correct_option": 2
+  },
+  {
+    "id": 41,
+    "section": "Quantitative Aptitude",
+    "question": "The pie chart shows hours spent on different activities. The percentage of hours spent at school in a day is:",
+    "options": ["25%", "35%", "40%", "30%"],
+    "correct_option": null
+  },
+  {
+    "id": 42,
+    "section": "Quantitative Aptitude",
+    "question": "In an election between Sunita and Mamata, 85% of voters cast their votes but 2% were invalid. If Sunita got 64,974 votes, which is 78% of valid votes, the total number of enrolled voters was:",
+    "options": ["125,000", "100,000", "165,000", "180,000"],
+    "correct_option": 2
+  },
+  {
+    "id": 43,
+    "section": "Quantitative Aptitude",
+    "question": "Which of the following years has the highest rate of increase compared to the previous year?",
+    "options": ["2019", "2018", "2015", "2016"],
+    "correct_option": 1
+  },
+  {
+    "id": 44,
+    "section": "Quantitative Aptitude",
+    "question": "The value of (3 sin 58° + 2 cos 62°)/(5 cos 32° + 5 sin 28°) is equal to:",
+    "options": ["1.0", "2.2", "3.3", "1"],
+    "correct_option": 4
+  },
+  {
+    "id": 45,
+    "section": "Quantitative Aptitude",
+    "question": "If 7 tan θ = 3, θ is acute, then (5 sin θ – cos θ)/(5 sin θ + 2 cos θ) equals:",
+    "options": ["8/29", "11/29", "7/29", "9/29"],
+    "correct_option": 1
+  },
+  {
+    "id": 46,
+    "section": "Quantitative Aptitude",
+    "question": "If 7 cos θ + 5 sin θ – 6 = 0, (0° < θ < 90°), then 1 + √((sec θ + tan θ)/(sec θ – tan θ)) equals:",
+    "options": ["√2 + 2", "√2 + 1", "√2 – 1", "√2 – 2"],
+    "correct_option": 2
+  },
+  {
+    "id": 47,
+    "section": "Quantitative Aptitude",
+    "question": "If one man adds 6 L of water to 10 L of milk and another adds 4 L of water to 8 L of milk, find the ratio of milk in the two mixtures.",
+    "options": ["16 : 15", "12 : 11", "16 : 17", "15 : 16"],
+    "correct_option": 4
+  },
+  {
+    "id": 48,
+    "section": "Quantitative Aptitude",
+    "question": "A shopkeeper allows a discount of 20% on the marked price and thus gains 10%. What is the ratio of cost price to marked price?",
+    "options": ["8:11", "7:10", "9:13", "11:14"],
+    "correct_option": 1
+  },
+  {
+    "id": 49,
+    "section": "Quantitative Aptitude",
+    "question": "What percent is the total amount of arrears paid by the company during the given period of the total bonus paid?",
+    "options": ["302.42%", "402.42%", "102.42%", "202.42%"],
+    "correct_option": null
+  },
+  {
+    "id": 50,
+    "section": "Quantitative Aptitude",
+    "question": "What is the central angle of a sector of a circle whose area and perimeter are 209 cm² and 63 cm, respectively, given its radius is a non-negative integer?",
+    "options": ["55.5°", "53.5°", "49.5°", "51.5°"],
+    "correct option": 2
+  },
+  {
+    "id": 51,
+    "section": "English Comprehension",
+    "question": "Select the option that can be used as a one-word substitute for the given group of words. Fear of closed spaces",
+    "options": ["Photophobia", "Optophobia", "Agoraphobia", "Claustrophobia"],
+    "correct_option": 4
+  },
+  {
+    "id": 52,
+    "section": "English Comprehension",
+    "question": "Select the option that expresses the given sentence in passive voice: Historians tell us how this country was divided into three.",
+    "options": [
+      "We are told by historians how this country has been divided into three.",
+      "We are told by historians how this country divided into three.",
+      "We are told by historians how this country was divided into three.",
+      "We have been told by historians how this country was divided into three."
+    ],
+    "correct_option": 3
+  },
+  {
+    "id": 53,
+    "section": "English Comprehension",
+    "question": "Select the correctly spelt word to fill in the blank. The transistors are used as the main ____ which are built into computer chips.",
+    "options": ["components", "cumponents", "kamponents", "kumponents"],
+    "correct_option": 1
+  },
+  {
+    "id": 54,
+    "section": "English Comprehension",
+    "question": "Parts of a sentence are given below in jumbled order. Select the option that arranges the parts in the correct sequence to form a meaningful sentence. (P) technology has revolutionised (Q) and it has transformed the way (O) every aspect of our lives (R) we communicate and connect",
+    "options": ["RPQO", "RPOQ", "POQR", "ORQP"],
+    "correct_option": 3
+  },
+  {
+    "id": 55,
+    "section": "English Comprehension",
+    "question": "Select the most appropriate ANTONYM of the word in the brackets to fill in the blank. The ____ to the venue was decorated with beautiful lights. [exit]",
+    "options": ["house", "road", "entry", "ceremony"],
+    "correct_option": 3
+  },
+  {
+    "id": 56,
+    "section": "English Comprehension",
+    "question": "Select the most appropriate meaning of the given idiom: Care a hang",
+    "options": ["Hanging clothes to dry", "Putting an outfit on a hanger", "Caring too much", "Showing no interest"],
+    "correct_option": 4
+  },
+  {
+    "id": 57,
+    "section": "English Comprehension",
+    "question": "Select the option that expresses the given sentence in passive voice: The company will launch the new product next month, and they are already promoting it through various marketing channels.",
+    "options": [
+      "The new product will be launched by the company next month, and it is already being promoted through various marketing channels.",
+      "The new product were been launched by the company next month, and it already was promoting through various marketing channels.",
+      "The new product was launched by the company next month, and it is already promoted through various marketing channels.",
+      "The new product will have been launched by the company next month, and it was already being promoted through various marketing channels."
+    ],
+    "correct_option": 1
+  },
+  {
+    "id": 58,
+    "section": "English Comprehension",
+    "question": "Select the most appropriate ANTONYM of the given word: Mechanical",
+    "options": ["Surrogate", "Automatised", "Yielding", "Manual"],
+    "correct_option": 4
+  },
+  {
+    "id": 59,
+    "section": "English Comprehension",
+    "question": "Select the most appropriate meaning of the underlined word: Solomon's reputation as an accountant is taintless.",
+    "options": ["flawed", "faultless", "dubious", "inconsistent"],
+    "correct_option": 2
+  },
+  {
+    "id": 60,
+    "section": "English Comprehension",
+    "question": "The following sentence has been divided into four segments. Identify the segment that contains a grammatical error: My sister, Juliet, / got married / as her / was 23.",
+    "options": ["was 23.", "as her", "My sister, Juliet,", "got married"],
+    "correct_option": 2
+  },
+  {
+    "id": 61,
+    "section": "English Comprehension",
+    "question": "Select the option that can be used as a one-word substitute for the given group of words: A short section (as of a book) that leads to or explains the main part.",
+    "options": ["Foreword", "Conclusion", "Postscript", "Paraphrase"],
+    "correct_option": 1
+  },
+  {
+    "id": 62,
+    "section": "English Comprehension",
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Verminous", "Vomitus", "Voluptuous", "Verifibility"],
+    "correct_option": 4
+  },
+  {
+    "id": 63,
+    "section": "English Comprehension",
+    "question": "Select the most appropriate option to substitute the underlined word in the given sentence: Mayra has the ability for mathematics.",
+    "options": ["astute", "altitude", "aptitude", "attitude"],
+    "correct_option": 3
+  },
+  {
+    "id": 64,
+    "section": "English Comprehension",
+    "question": "Select the word which means the same as the group of words given: Choice between two unsatisfactory alternatives.",
+    "options": ["Dilemma", "Problem", "Confusion", "Difficulty"],
+    "correct_option": 1
+  },
+  {
+    "id": 65,
+    "section": "English Comprehension",
+    "question": "Parts of the following sentence have been underlined and given as options. Select the option that contains an error: The supermarket is open from 10 a.m. still 10 p.m.",
+    "options": ["open", "from 10 a.m.", "The supermarket", "still 10 p.m."],
+    "correct_option": 4
+  },
+  {
+    "id": 66,
+    "section": "English Comprehension",
+    "question": "Select the most appropriate option to substitute the underlined segment in the given sentence: To tell others secret information only for enjoyment is not a good practice.",
+    "options": ["spill the words", "spill the cat", "spill the onions", "spill the beans"],
+    "correct_option": 4
+  },
+  {
+    "id": 67,
+    "section": "English Comprehension",
+    "question": "Select the most appropriate synonym of the bracketed word in the following sentence to fill in the blank: The media, these days, constructs (misleading) narratives on politics and celebrities to increase the viewership.",
+    "options": ["sincere", "true", "candid", "mendacious"],
+    "correct_option": 4
+  },
+  {
+    "id": 68,
+    "section": "English Comprehension",
+    "question": "Select the most appropriate option to fill in the blank: The group of travellers were wonderstruck by the ____ of the coin.",
+    "options": ["wait", "white", "wide", "weight"],
+    "correct_option": 4
+  },
+  {
+    "id": 69,
+    "section": "English Comprehension",
+    "question": "Select the most appropriate word for the given definition: to form an estimate of something.",
+    "options": ["Misjudge", "Assess", "Unity", "Misquote"],
+    "correct_option": 2
+  },
+  {
+    "id": 70,
+    "section": "English Comprehension",
+    "question": "Select the option that can substitute/replace the bracketed word correctly and complete the sentence: They could (always) stay in, or go for a walk.",
+    "options": ["had better", "not only", "either", "neither"],
+    "correct_option": 3
+  },
+  {
+    "id": 71,
+    "section": "English Comprehension",
+    "question": "Comprehension passage—blank (1): As a result of Covid-19, the quick ____ to digital training has exposed hazards of disengagement.",
+    "options": ["end", "transition", "set", "stagnation"],
+    "correct_option": 2
+  },
+  {
+    "id": 72,
+    "section": "English Comprehension",
+    "question": "Comprehension passage—blank (2): ...student performance across ____ courses.",
+    "options": ["numerous", "fewer", "particular", "limit"],
+    "correct_option": 1
+  },
+  {
+    "id": 73,
+    "section": "English Comprehension",
+    "question": "Comprehension passage—blank (3): The latest ____ has altered the education of millions around the world.",
+    "options": ["local", "endemic", "epidemic", "pandemic"],
+    "correct_option": 4
+  },
+  {
+    "id": 74,
+    "section": "English Comprehension",
+    "question": "Comprehension passage—blank (4): More than 500 million students were forced to ____ their studies.",
+    "options": ["suspend", "resume", "reopened", "carry on"],
+    "correct_option": 1
+  },
+  {
+    "id": 75,
+    "section": "English Comprehension",
+    "question": "Comprehension passage—blank (5): Children, ____ basic core learning was weak to begin with, face risk of regression.",
+    "options": ["which", "whose", "whom", "who"],
+    "correct_option": 2
+  },
+  {
+    "id": 76,
+    "section": "General Intelligence and Reasoning",
+    "question": "Select the set in which the numbers are related in the same way as are the numbers of the following set: (121, 93, 214)",
+    "options": ["(135, 117, 259)", "(110, 94, 224)", "(84, 99, 189)", "(97, 112, 209)"],
+    "correct_option": 4
+  },
+  {
+    "id": 77,
+    "section": "General Intelligence and Reasoning",
+    "question": "Select the figure that can replace the question mark in the series: AAA, OAA, 044, 1000, ?",
+    "options": ["O44", "004", "004|", "004"],
+    "correct_option": null
+  },
+  {
+    "id": 78,
+    "section": "General Intelligence and Reasoning",
+    "question": "Given two positions of the same dice, select the number opposite to face 4.",
+    "options": ["8", "3", "9", "2"],
+    "correct_option": null
+  },
+  {
+    "id": 79,
+    "section": "General Intelligence and Reasoning",
+    "question": "How many squares are there in the given figure?",
+    "options": ["11", "13", "15", "17"],
+    "correct_option": null
+  },
+  {
+    "id": 80,
+    "section": "General Intelligence and Reasoning",
+    "question": "Select the word pair that best represents a similar relationship to Nourish:Neglect",
+    "options": ["Nourish:Neglect", "Infinite:Cosmic", "Abstract:Concrete", "Concise:Verbose"],
+    "correct_option": 3
+  },
+  {
+    "id": 81,
+    "section": "General Intelligence and Reasoning",
+    "question": "Six letters on the faces of a dice are shown in three positions. Which letter is opposite to M?",
+    "options": ["P", "N", "K", "L"],
+    "correct_option": null
+  },
+  {
+    "id": 82,
+    "section": "General Intelligence and Reasoning",
+    "question": "Replace '+' with '–', '–' with '+', '×' with '+', and ':' with '×' in 15 × 9 + 7 : 26 - 13. What is the result?",
+    "options": ["68", "72", "76", "84"],
+    "correct_option": null
+  },
+  {
+    "id": 83,
+    "section": "General Intelligence and Reasoning",
+    "question": "In the code 'A+B' = mother of, 'A–B' = brother of, 'A×B' = wife of, 'A:B' = father of, how is 5 related to 3 in '5 – 2 × 4 : 3'?",
+    "options": ["Father's sister", "Mother's brother", "Father's brother", "Mother's sister"],
+    "correct_option": 2
+  },
+  {
+    "id": 84,
+    "section": "General Intelligence and Reasoning",
+    "question": "Three of the following four letter-clusters are alike. Which one does NOT belong? EJM, DIM, FKN, CHK",
+    "options": ["EJM", "DIM", "FKN", "CHK"],
+    "correct_option": 2
+  },
+  {
+    "id": 85,
+    "section": "General Intelligence and Reasoning",
+    "question": "Identify the figure which, when replacing the question mark, will complete the series: Y X P → Y E P → ?",
+    "options": ["E4|4X", "XYEP4", "XEY4P", "Y P E 4"],
+    "correct_option": null
+  },
+  {
+    "id": 86,
+    "section": "General Intelligence and Reasoning",
+    "question": "62 is related to 79 and 98 to 119 by the same logic. To which number is 14 related?",
+    "options": ["24", "23", "19", "21"],
+    "correct_option": null
+  },
+  {
+    "id": 87,
+    "section": "General Intelligence and Reasoning",
+    "question": "Which letter-cluster replaces the question mark in the series NUT, RYX, VCB, ZGF, ?",
+    "options": ["EKJ", "DKL", "EKL", "DKJ"],
+    "correct_option": 4
+  },
+  {
+    "id": 88,
+    "section": "General Intelligence and Reasoning",
+    "question": "Which numbers replace the question marks in 4, ?, ?, 49, 121, 169, 289?",
+    "options": ["9, 16", "9, 25", "3, 9", "16, 25"],
+    "correct_option": 2
+  },
+  {
+    "id": 89,
+    "section": "General Intelligence and Reasoning",
+    "question": "All letters in 'WISDOM' are arranged alphabetically. How many letters lie between the third from left and second from right in the new cluster?",
+    "options": ["Three", "Six", "Five", "Two"],
+    "correct_option": 3
+  },
+  {
+    "id": 90,
+    "section": "General Intelligence and Reasoning",
+    "question": "Select the correct mirror image of the given figure when the mirror is placed at MN.",
+    "options": ["Tar47gb-", "gbTA16T-", "XBOX", "gbTA16T"],
+    "correct_option": null
+  },
+  {
+    "id": 91,
+    "section": "General Intelligence and Reasoning",
+    "question": "In the expression 11 : 12 - 78 × 6 + 57, if '+' and '-' are interchanged and '×' and ':' are interchanged, what replaces the question mark?",
+    "options": ["74", "95", "83", "88"],
+    "correct_option": null
+  },
+  {
+    "id": 92,
+    "section": "General Intelligence and Reasoning",
+    "question": "Three of the following four options form a group under the same rule. Which one does NOT belong? (81 - 118 - 91), (52 - 68 - 51), (99 - 104 - 71), (21 - 38 - 31)",
+    "options": ["81-118-91", "52-68-51", "99-104-71", "21-38-31"],
+    "correct_option": null
+  },
+  {
+    "id": 93,
+    "section": "General Intelligence and Reasoning",
+    "question": "A paper is folded and cut as shown. How will it look when unfolded?",
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correct_option": null
+  },
+  {
+    "id": 94,
+    "section": "General Intelligence and Reasoning",
+    "question": "Select the letters that complete the series: PQ_S_PPQP_APPQ_SAP_Q",
+    "options": ["QPASP", "PQSAP", "PASPP", "QSPAP"],
+    "correct_option": null
+  },
+  {
+    "id": 95,
+    "section": "General Intelligence and Reasoning",
+    "question": "SWEET:WSETE :: SALTY:ASLYT :: DRINK:?",
+    "options": ["RDIKN", "ESJOL", "RDNIK", "DRIKN"],
+    "correct_option": 1
+  },
+  {
+    "id": 96,
+    "section": "General Intelligence and Reasoning",
+    "question": "In the Venn diagram (Women, Entrepreneurs, Indian), how many women entrepreneurs are Indian?",
+    "options": ["11", "17", "29", "18"],
+    "correct_option": null
+  },
+  {
+    "id": 97,
+    "section": "General Intelligence and Reasoning",
+    "question": "In a certain code language, 'make some more' = 'pb gq st' and 'need more time' = 'ru ek gq'. What is the code for 'more'?",
+    "options": ["st", "ek", "gq", "pb"],
+    "correct_option": 3
+  },
+  {
+    "id": 98,
+    "section": "General Intelligence and Reasoning",
+    "question": "Select the set related in the same way as (173, 246) and (148, 196):",
+    "options": ["(142, 176)", "(169, 247)", "(127, 194)", "(154, 208)"],
+    "correct_option": 4
+  },
+  {
+    "id": 99,
+    "section": "General Intelligence and Reasoning",
+    "question": "In a certain code, VERY = 6314 and VARY = 1438. How will 'A' be written?",
+    "options": ["6", "1", "4", "8"],
+    "correct_option": 3
+  },
+  {
+    "id": 100,
+    "section": "General Intelligence and Reasoning",
+    "question": "Study the Venn diagram (Polite, Smart, Educated). How many smart people are polite?",
+    "options": ["63", "12", "7", "19"],
+    "correct_option": 2
+  }
+]

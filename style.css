@@ -17,9 +17,18 @@ body {
     letter-spacing: 2px;
 }
 
-.question-area, .right-panel {
+.question-area {
     border: 1px solid #ddd;
     border-radius: 5px;
+}
+
+.right-panel {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: sticky;
+    top: 20px;
+    height: calc(100vh - 100px); /* Adjust as needed */
+    overflow-y: auto;
 }
 
 .nav-tabs .nav-link.active {
@@ -92,6 +101,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    max-height: 400px; /* Adjust as needed */
+    overflow-y: auto;
 }
 
 .palette-button {

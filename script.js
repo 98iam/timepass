@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let questionsForCurrentSection = []; // Holds the questions for the active section
     let currentQuestionIndex = 0; // Index within the *current section's* array
     
-    const totalTime = 2 * 60 * 60; // 2 hours in seconds
+    let quizSettings = JSON.parse(localStorage.getItem('quizSettings')) || {};
+    const totalTime = (quizSettings.totalTime || 120) * 60; // default to 120 mins
     let timeLeft = totalTime;
     let timerInterval;
     let isReviewMode = false;
@@ -27,32 +28,51 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- INITIALIZATION ---
     async function initializeTest() {
-        await fetchAndGroupQuestions();
+        await loadQuestionsFromStorage();
         setupDynamicUI();
         startTimer();
     }
 
     // --- DATA HANDLING ---
-    async function fetchAndGroupQuestions() {
+    async function loadQuestionsFromStorage() {
+        const storedQuestions = localStorage.getItem('quizQuestions');
+        if (storedQuestions) {
+            try {
+                allQuestions = JSON.parse(storedQuestions);
+                return groupQuestions();
+            } catch (error) {
+                console.error('Failed to parse stored questions:', error);
+                // Fallback to fetching from file
+                return fetchQuestionsFromFile();
+            }
+        } else {
+            return fetchQuestionsFromFile();
+        }
+    }
+
+    async function fetchQuestionsFromFile() {
         try {
             const response = await fetch('questions.json');
             if (!response.ok) throw new Error('Network response was not ok');
             allQuestions = await response.json();
-            
-            questionsBySection = {}; // Reset
-            allQuestions.forEach(q => {
-                q.status = 'not-visited';
-                q.userAnswer = null;
-
-                if (!questionsBySection[q.section]) {
-                    questionsBySection[q.section] = [];
-                }
-                questionsBySection[q.section].push(q);
-            });
+            groupQuestions();
         } catch (error) {
             console.error('Failed to fetch questions:', error);
             questionTextEl.innerHTML = 'Failed to load questions. Please check the `questions.json` file and refresh the page.';
         }
+    }
+
+    function groupQuestions() {
+        questionsBySection = {}; // Reset
+        allQuestions.forEach(q => {
+            q.status = 'not-visited';
+            q.userAnswer = null;
+
+            if (!questionsBySection[q.section]) {
+                questionsBySection[q.section] = [];
+            }
+            questionsBySection[q.section].push(q);
+        });
     }
 
     // --- UI SETUP ---
@@ -286,7 +306,9 @@ document.addEventListener('DOMContentLoaded', () => {
         isReviewMode = true;
         clearInterval(timerInterval);
 
+        const negativeMarking = parseFloat(quizSettings.negativeMarking) || 0;
         let score = 0, attempted = 0, correct = 0, incorrect = 0;
+
         allQuestions.forEach(q => {
             if (q.userAnswer !== null) {
                 attempted++;
@@ -294,10 +316,18 @@ document.addEventListener('DOMContentLoaded', () => {
                     score++;
                     correct++;
                 } else {
+                    score -= negativeMarking;
                     incorrect++;
                 }
             }
         });
+
+        const timeTaken = totalTime - timeLeft;
+        const formatTime = (seconds) => {
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        };
         
         testNavigationBtnsEl.classList.add('d-none');
         submitTestBtn.disabled = true;
@@ -306,21 +336,70 @@ document.addEventListener('DOMContentLoaded', () => {
         resultSummaryEl.classList.remove('d-none');
         resultSummaryEl.innerHTML = `
             <div class="alert alert-info text-center">
-                <h4 class="alert-heading">Test Complete!</h4>
-                <p>Your Overall Score: <strong>${score} / ${allQuestions.length}</strong></p>
+                <h4 class="alert-heading">Test Results</h4>
+                <p>Your Final Score is <strong>${score.toFixed(2)} / ${allQuestions.length}</strong></p>
                 <hr>
-                <p class="mb-0">
-                    Correct: <span class="badge bg-success">${correct}</span> | 
-                    Incorrect: <span class="badge bg-danger">${incorrect}</span> | 
-                    Unattempted: <span class="badge bg-warning text-dark">${allQuestions.length - attempted}</span>
-                </p>
+                <div class="d-flex justify-content-around mb-3">
+                    <div>
+                        <h5>Time</h5>
+                        <p>${formatTime(timeTaken)} / ${formatTime(totalTime)}</p>
+                    </div>
+                    <div>
+                        <h5>Attempted</h5>
+                        <p>${attempted} / ${allQuestions.length}</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <div>
+                        <h5>Correct</h5>
+                        <p class="text-success">${correct}</p>
+                    </div>
+                    <div>
+                        <h5>Incorrect</h5>
+                        <p class="text-danger">${incorrect}</p>
+                    </div>
+                    <div>
+                        <h5>Unattempted</h5>
+                        <p class="text-warning">${allQuestions.length - attempted}</p>
+                    </div>
+                </div>
+                <hr>
                 <p class="mt-2">You can now review your answers by section.</p>
             </div>
         `;
         
         const firstSection = Object.keys(questionsBySection)[0];
-        switchSection(firstSection);
+        if (firstSection) {
+            switchSection(firstSection);
+        } else {
+            questionTextEl.innerHTML = "No sections to review.";
+        }
     }
+
+    const fullscreenBtn = document.getElementById('fullscreen-btn');
+    if(fullscreenBtn) {
+        fullscreenBtn.addEventListener('click', toggleFullscreen);
+    }
+
+    function toggleFullscreen() {
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen().catch(err => {
+                alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+            });
+            if(fullscreenBtn) fullscreenBtn.textContent = 'Exit Fullscreen';
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+                if(fullscreenBtn) fullscreenBtn.textContent = 'Show Fullscreen';
+            }
+        }
+    }
+
+    document.addEventListener('fullscreenchange', () => {
+        if (!document.fullscreenElement) {
+            if(fullscreenBtn) fullscreenBtn.textContent = 'Show Fullscreen';
+        }
+    });
 
     // --- KICK IT OFF ---
     initializeTest();

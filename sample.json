@@ -1,0 +1,377 @@
+[
+    {
+      "id": 1,
+      "section": "General Awareness",
+      "question": "Rudrasena II of which of the following dynasties married Prabhavatigupta, the daughter of Chandragupta II of the Gupta dynasty?",
+      "options": ["Pushyabhuti", "Vakataka", "Chalukya", "Pallava"],
+      "correct_option": 2
+    },
+    {
+      "id": 2,
+      "section": "General Awareness",
+      "question": "Madhuri Barthwal, a folk singer and Padma Shri 2022 awardee, belongs to which of the following states of India?",
+      "options": ["Uttarakhand", "Himachal Pradesh", "Uttar Pradesh", "Maharashtra"],
+      "correct_option": 1
+    },
+    {
+      "id": 3,
+      "section": "General Awareness",
+      "question": "Which of the following options is the legislative organ of the Union government?",
+      "options": ["Judiciary", "Legislative Assembly", "Executive", "Parliament"],
+      "correct_option": 4
+    },
+    {
+      "id": 4,
+      "section": "General Awareness",
+      "question": "Which of the following elements is a metalloid?",
+      "options": ["Iron", "Oxygen", "Sodium", "Silicon"],
+      "correct_option": 4
+    },
+    {
+      "id": 5,
+      "section": "General Awareness",
+      "question": "Which country has the Republic feature of the Indian Constitution been borrowed from?",
+      "options": ["French Constitution", "Irish Constitution", "British Constitution", "Australian Constitution"],
+      "correct_option": 1
+    },
+    {
+      "id": 6,
+      "section": "General Awareness",
+      "question": "Which of the following States has declared a social security scheme for registered newspaper hawkers in the State in 2021?",
+      "options": ["Gujarat", "Maharashtra", "Odisha", "Tamil Nadu"],
+      "correct_option": 3
+    },
+    {
+      "id": 7,
+      "section": "General Awareness",
+      "question": "Which of the following is the main cause of land degradation in Jharkhand and Chhattisgarh?",
+      "options": ["Intensive use of manure", "Over-irrigation", "Deforestation due to mining", "Overgrazing"],
+      "correct_option": 3
+    },
+    {
+      "id": 8,
+      "section": "General Awareness",
+      "question": "The Accelerated Female Literacy Programme was initiated in districts where the female literacy rate, based on the 2001 census, was ____.",
+      "options": ["below 35%", "below 45%", "below 30%", "below 50%"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "section": "General Awareness",
+      "question": "As of 2021, which is the world's largest drainage basin with an area of about 7,000,000 km²?",
+      "options": ["Congo basin", "Amur basin", "Amazon basin", "Nile basin"],
+      "correct_option": 3
+    },
+    {
+      "id": 10,
+      "section": "General Awareness",
+      "question": "National Sports University is situated in?",
+      "options": ["Mizoram", "Tripura", "Meghalaya", "Manipur"],
+      "correct_option": 4
+    },
+    {
+      "id": 11,
+      "section": "General Awareness",
+      "question": "Which of the following characteristics is NOT of Aves?",
+      "options": [
+        "They have four-chambered hearts.",
+        "They give birth to live young ones with some exceptions that lay eggs.",
+        "These are warm-blooded animals.",
+        "They breathe through the lungs."
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 12,
+      "section": "General Awareness",
+      "question": "In which of the following states is the development of rail transport less due to its geographical conditions?",
+      "options": ["Sikkim", "Haryana", "Bihar", "Uttar Pradesh"],
+      "correct_option": 1
+    },
+    {
+      "id": 13,
+      "section": "General Awareness",
+      "question": "Which of the following books is INCORRECTLY paired with its respective author?",
+      "options": [
+        "Hind Swaraj - Mahatma Gandhi",
+        "Gitanjali - Rabindranath Tagore",
+        "The Discovery of India - Subhash Chandra Bose",
+        "Why I am an Atheist - Bhagat Singh"
+      ],
+      "correct_option": 3
+    },
+    {
+      "id": 14,
+      "section": "General Awareness",
+      "question": "Who among the following was a poet who won the Nobel Prize for Literature in 1913?",
+      "options": ["Aurobindo Ghose", "Rudyard Kipling", "Bankim Chandra Chattopadhyay", "Rabindranath Tagore"],
+      "correct_option": 4
+    },
+    {
+      "id": 15,
+      "section": "General Awareness",
+      "question": "In which year was the National Institute of Kathak Dance established?",
+      "options": ["1964", "1961", "1954", "1969"],
+      "correct_option": 1
+    },
+    {
+      "id": 16,
+      "section": "General Awareness",
+      "question": "As for the year 2020-21, which of the following states had the lowest unemployment rate among persons aged 15 years and above?",
+      "options": ["Sikkim", "Madhya Pradesh", "Gujarat", "Chhattisgarh"],
+      "correct_option": 3
+    },
+    {
+      "id": 17,
+      "section": "General Awareness",
+      "question": "When was the Indian Hockey Federation established?",
+      "options": ["1925", "1955", "1945", "1935"],
+      "correct_option": 1
+    },
+    {
+      "id": 18,
+      "section": "General Awareness",
+      "question": "Which cell organelle is defined as the small round organelle that undergoes oxidation reaction to produce hydrogen peroxide?",
+      "options": ["Centrosome", "Vacuole", "Nucleus", "Peroxisomes"],
+      "correct_option": 4
+    },
+    {
+      "id": 19,
+      "section": "General Awareness",
+      "question": "The cause of a redox reaction is the:",
+      "options": [
+        "transfer of electrons between two reactants",
+        "transfer of electrons between two products",
+        "transfer of neutrons between two reactants",
+        "exchange of halogens between two reactants"
+      ],
+      "correct_option": 1
+    },
+    {
+      "id": 20,
+      "section": "General Awareness",
+      "question": "'Sangken' is a festival celebrated in Arunachal Pradesh by people of which of the following religions?",
+      "options": ["Islam", "Buddhism", "Jainism", "Hinduism"],
+      "correct_option": 2
+    },
+    {
+      "id": 21,
+      "section": "General Awareness",
+      "question": "Which group of people will be benefited by the Mukhya Mantri Sukh Ashray Yojana approved by Himachal Pradesh?",
+      "options": [
+        "Students and teachers",
+        "Orphans, specially abled children, destitute women, and senior citizens",
+        "Unemployed youth",
+        "Farmers and agricultural labourers"
+      ],
+      "correct_option": 2
+    },
+    {
+      "id": 22,
+      "section": "General Awareness",
+      "question": "What is the aim of the PM Ujwala 2.0 Yojna launched in August 2021?",
+      "options": [
+        "Free LPG connections for commercial use",
+        "20 million LPG connections will be provided to the beneficiaries",
+        "10 million LPG connections will be provided to the beneficiaries",
+        "Free gas stove for BPL Households"
+      ],
+      "correct_option": 3
+    },
+    {
+      "id": 23,
+      "section": "General Awareness",
+      "question": "MG Music Awards is presented annually by which of the following states?",
+      "options": ["Mizoram", "Nagaland", "Manipur", "Chhattisgarh"],
+      "correct_option": null
+    },
+    {
+      "id": 24,
+      "section": "General Awareness",
+      "question": "If assets of a bank are greater than liabilities, it will be recorded as:",
+      "options": ["Liabilities", "Net worth", "Reserves", "Assets"],
+      "correct_option": 2
+    },
+    {
+      "id": 25,
+      "section": "General Awareness",
+      "question": "Which of the following departments of the Delhi Sultanate was reorganized by Balban?",
+      "options": ["Diwan-i-Ishtiaq", "Diwan-i-Arz", "Diwan-i-Risalat", "Diwan-i-Mustakhraj"],
+      "correct_option": 2
+    },
+    {
+      "id": 26,
+      "section": "Quantitative Aptitude",
+      "question": "If 45 + 3 +4×A -48 +24 +4 = 1, then the value of A is:",
+      "options": ["-2", "4", "2", "-4"],
+      "correct_option": 3
+    },
+    {
+      "id": 27,
+      "section": "Quantitative Aptitude",
+      "question": "What was the ratio of foreign direct investment in 2018 to that in 2015 (based on the bar graph)?",
+      "options": ["13 : 12", "12 : 11", "11 : 12", "13 : 11"],
+      "correct_option": 1
+    },
+    {
+      "id": 28,
+      "section": "Quantitative Aptitude",
+      "question": "If the length of a common external tangent to two circles is 9 and that of a common internal tangent is 5, then the product of the radii of the two circles is:",
+      "options": ["12", "8", "14", "10"],
+      "correct_option": 3
+    },
+    {
+      "id": 29,
+      "section": "Quantitative Aptitude",
+      "question": "If ΔPQR = ΔMON such that 2∠PQR = 82°, ∠QRP = 47°, ∠RPQ = 51°, 2∠MON = (5y - 8)°, QR = 24 and ON = 3x + y, then find (x + y).",
+      "options": ["14", "18", "16", "20"],
+      "correct_option": 3
+    },
+    {
+      "id": 30,
+      "section": "Quantitative Aptitude",
+      "question": "Which digits should come in place of * and #, respectively, if the 7-digit number 62684*# is divisible by both 8 and 5?",
+      "options": ["2 and 0", "4 and 0", "5 and 0", "0 and 5"],
+      "correct_option": 2
+    },
+    {
+      "id": 31,
+      "section": "Quantitative Aptitude",
+      "question": "The area of a square is 16x² + 40x + 25 square units. Find the perimeter of the square.",
+      "options": ["3(10x + 8)", "3(8x + 10)", "2(10x + 8)", "2(8x + 10)"],
+      "correct_option": 4
+    },
+    {
+      "id": 32,
+      "section": "Quantitative Aptitude",
+      "question": "The average of the squares of the first 45 natural numbers is:",
+      "options": ["698.67", "699.67", "697.67", "696.67"],
+      "correct_option": 3
+    },
+    {
+      "id": 33,
+      "section": "Quantitative Aptitude",
+      "question": "A rectangular piece of paper is 50 cm long and 22 cm wide. If a cylinder is formed by rolling the paper along its breadth, then the volume of the cylinder is:",
+      "options": ["2,125 cm³", "1,925 cm³", "2,025 cm³", "1,825 cm³"],
+      "correct_option": 2
+    },
+    {
+      "id": 34,
+      "section": "Quantitative Aptitude",
+      "question": "If x² + y² = 280 and xy = 120, then find the value of (x - y)/(x + y):",
+      "options": ["1/√13", "√15", "√13", "1/√15"],
+      "correct_option": 1
+    },
+    {
+      "id": 35,
+      "section": "Quantitative Aptitude",
+      "question": "The speed of a boat in still water is 18 km/h and the speed of the stream is 3 km/h. How much time (in hours) will it take to cover a distance of 105 km downstream and then return upstream?",
+      "options": ["12", "10", "15", "9"],
+      "correct_option": 1
+    },
+    {
+      "id": 36,
+      "section": "Quantitative Aptitude",
+      "question": "Simple interest on a certain sum is one-fifth of the sum, and the interest rate per annum is 5 times the number of years. What is the simple interest on ₹5,600 for 6 years?",
+      "options": ["4668", "4168", "4268", "4368"],
+      "correct_option": null
+    },
+    {
+      "id": 37,
+      "section": "Quantitative Aptitude",
+      "question": "A bronze article having a marked price of ₹1,000 is sold during a festive season sale after three successive discounts of 20%, 30%, and 10%. What will be the amount (in ₹) to be paid by a customer?",
+      "options": ["508", "564", "504", "496"],
+      "correct_option": 3
+    },
+    {
+      "id": 38,
+      "section": "Quantitative Aptitude",
+      "question": "Pipes P and Q can fill a tank in 10 hours and 15 hours respectively. Pipe R can empty it in 12 hours. P and Q are opened at 6 a.m., R is added at 9 a.m. By what time will the tank be full?",
+      "options": ["1 p.m.", "2 p.m.", "11 a.m.", "3 p.m."],
+      "correct_option": 4
+    },
+    {
+      "id": 39,
+      "section": "Quantitative Aptitude",
+      "question": "For what value of k will the lines 2x + 7k y – 8 = 0 and x + y – 9 = 0 have no solution?",
+      "options": ["2/7", "9/7", "8/9", "1/2"],
+      "correct_option": 1
+    },
+    {
+      "id": 40,
+      "section": "Quantitative Aptitude",
+      "question": "The radii of two circles are 5 cm and 10 cm, and the distance between their centres is 17 cm. Find the length of the transverse common tangent.",
+      "options": ["9 cm", "8 cm", "6 cm", "7.5 cm"],
+      "correct_option": 2
+    },
+    {
+      "id": 41,
+      "section": "Quantitative Aptitude",
+      "question": "The pie chart shows hours spent on different activities. The percentage of hours spent at school in a day is:",
+      "options": ["25%", "35%", "40%", "30%"],
+      "correct_option": null
+    },
+    {
+      "id": 42,
+      "section": "Quantitative Aptitude",
+      "question": "In an election between Sunita and Mamata, 85% of voters cast their votes but 2% were invalid. If Sunita got 64,974 votes, which is 78% of valid votes, the total number of enrolled voters was:",
+      "options": ["125,000", "100,000", "165,000", "180,000"],
+      "correct_option": 2
+    },
+    {
+      "id": 43,
+      "section": "Quantitative Aptitude",
+      "question": "Which of the following years has the highest rate of increase compared to the previous year?",
+      "options": ["2019", "2018", "2015", "2016"],
+      "correct_option": 1
+    },
+    {
+      "id": 44,
+      "section": "Quantitative Aptitude",
+      "question": "The value of (3 sin 58° + 2 cos 62°)/(5 cos 32° + 5 sin 28°) is equal to:",
+      "options": ["1.0", "2.2", "3.3", "1"],
+      "correct_option": 4
+    },
+    {
+      "id": 45,
+      "section": "Quantitative Aptitude",
+      "question": "If 7 tan θ = 3, θ is acute, then (5 sin θ – cos θ)/(5 sin θ + 2 cos θ) equals:",
+      "options": ["8/29", "11/29", "7/29", "9/29"],
+      "correct_option": 1
+    },
+    {
+      "id": 46,
+      "section": "Quantitative Aptitude",
+      "question": "If 7 cos θ + 5 sin θ – 6 = 0, (0° < θ < 90°), then 1 + √((sec θ + tan θ)/(sec θ – tan θ)) equals:",
+      "options": ["√2 + 2", "√2 + 1", "√2 – 1", "√2 – 2"],
+      "correct_option": 2
+    },
+    {
+      "id": 47,
+      "section": "Quantitative Aptitude",
+      "question": "If one man adds 6 L of water to 10 L of milk and another adds 4 L of water to 8 L of milk, find the ratio of milk in the two mixtures.",
+      "options": ["16 : 15", "12 : 11", "16 : 17", "15 : 16"],
+      "correct_option": 4
+    },
+    {
+      "id": 48,
+      "section": "Quantitative Aptitude",
+      "question": "A shopkeeper allows a discount of 20% on the marked price and thus gains 10%. What is the ratio of cost price to marked price?",
+      "options": ["8:11", "7:10", "9:13", "11:14"],
+      "correct_option": 1
+    },
+    {
+      "id": 49,
+      "section": "Quantitative Aptitude",
+      "question": "What percent is the total amount of arrears paid by the company during the given period of the total bonus paid?",
+      "options": ["302.42%", "402.42%", "102.42%", "202.42%"],
+      "correct_option": null
+    },
+    {
+      "id": 50,
+      "section": "Quantitative Aptitude",
+      "question": "What is the central angle of a sector of a circle whose area and perimeter are 209 cm² and 63 cm, respectively, given its radius is a non-negative integer?",
+      "options": ["55.5°", "53.5°", "49.5°", "51.5°"],
+      "correct_option": 2
+    }
+]

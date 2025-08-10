@@ -389,7 +389,45 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
         `;
+        // --- Persist attempt to history ---
+        try {
+            const attemptId = Date.now();
+            const attempt = {
+                id: attemptId,
+                createdAt: new Date().toISOString(),
+                settings: quizSettings || {},
+                summary: {
+                    score: Number(score.toFixed(2)),
+                    totalQuestions: allQuestions.length,
+                    attempted,
+                    correct,
+                    incorrect,
+                    unattempted: allQuestions.length - attempted,
+                    timeTaken,
+                    totalTime
+                },
+                sections: Object.keys(questionsBySection),
+                questions: allQuestions.map(q => ({
+                    id: q.id !== undefined ? q.id : undefined,
+                    section: q.section,
+                    question: q.question,
+                    options: q.options,
+                    correct_option: q.correct_option,
+                    userAnswer: q.userAnswer,
+                    status: q.status
+                }))
+            };
+            const attempts = JSON.parse(localStorage.getItem('quizAttempts') || '[]');
+            attempts.unshift(attempt);
+            localStorage.setItem('quizAttempts', JSON.stringify(attempts));
+            // Redirect to dedicated result page so quiz UI is hidden
+            window.location.href = `result.html?id=${attemptId}`;
+            return;
+        } catch (e) {
+            console.error('Failed to save attempt history:', e);
+        }
         
+        // Fallback: if redirect failed for some reason, remain on page
         const firstSection = Object.keys(questionsBySection)[0];
         if (firstSection) {
             switchSection(firstSection);

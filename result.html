@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test Result</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{background: #f7f3e8}
+    .result-card{max-width: 980px; margin: 24px auto}
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light border-bottom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">← Home</a>
+      <span class="navbar-text">Result</span>
+    </div>
+  </nav>
+
+  <div class="container result-card">
+    <div id="result-container" class="card shadow-sm">
+      <div class="card-header bg-primary text-white">
+        <h4 class="mb-0">Your Result</h4>
+      </div>
+      <div class="card-body">
+        <p class="text-muted">Loading...</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      function byId(id){return document.getElementById(id)}
+      function qs(sel, scope){return (scope||document).querySelector(sel)}
+      function formatTime(seconds){
+        const m=Math.floor(seconds/60), s=seconds%60; return `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+      }
+      function getAttempts(){
+        try { return JSON.parse(localStorage.getItem('quizAttempts')||'[]'); }
+        catch(e){ return [] }
+      }
+      function render(){
+        const params = new URLSearchParams(location.search);
+        const id = params.get('id');
+        const attempts = getAttempts();
+        const attempt = attempts.find(a=> String(a.id)===String(id));
+        const wrap = byId('result-container');
+        const body = wrap.querySelector('.card-body');
+        if(!attempt){ body.innerHTML = '<p class="text-danger mb-0">Result not found. Please take a test first.</p>'; return; }
+        const s = attempt.summary||{};
+        const sectionNames = attempt.sections||[];
+
+        const perSection = (()=>{
+          // Recompute from stored questions to be accurate
+          const bySec = {};
+          (attempt.questions||[]).forEach(q=>{ (bySec[q.section]=bySec[q.section]||{total:0,answered:0,correct:0}) ; bySec[q.section].total++; if(q.userAnswer!==null && q.userAnswer!==undefined){bySec[q.section].answered++; if((q.correct_option-1)===q.userAnswer) bySec[q.section].correct++;}});
+          return Object.entries(bySec).map(([name,v])=>({
+            name, total:v.total, answered:v.answered, correct:v.correct,
+            incorrect: Math.max(0, v.answered - v.correct),
+            unattempted: Math.max(0, v.total - v.answered)
+          }));
+        })();
+
+        const perSectionHtml = perSection.map(sec=>`
+          <tr>
+            <td>${sec.name}</td>
+            <td class="text-center">${sec.total}</td>
+            <td class="text-center">${sec.answered}</td>
+            <td class="text-success text-center fw-bold">${sec.correct}</td>
+            <td class="text-danger text-center fw-bold">${sec.incorrect}</td>
+            <td class="text-warning text-center fw-bold">${sec.unattempted}</td>
+          </tr>
+        `).join('');
+
+        body.innerHTML = `
+          <div class="row g-3 mb-3 text-center">
+            <div class="col-sm-6 col-lg-3">
+              <div class="p-3 bg-success-subtle border border-success-subtle rounded-3">
+                <div class="text-muted">Correct</div>
+                <div class="display-6 text-success">${s.correct ?? '-'}</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="p-3 bg-danger-subtle border border-danger-subtle rounded-3">
+                <div class="text-muted">Incorrect</div>
+                <div class="display-6 text-danger">${s.incorrect ?? '-'}</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="p-3 bg-warning-subtle border border-warning-subtle rounded-3">
+                <div class="text-muted">Unattempted</div>
+                <div class="display-6 text-warning">${s.unattempted ?? '-'}</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="p-3 bg-light border rounded-3">
+                <div class="text-muted">Attempted</div>
+                <div class="display-6">${s.attempted ?? '-'}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-3 mb-3 text-center">
+            <div class="col-sm-6 col-lg-3">
+              <div class="p-3 bg-primary-subtle border border-primary-subtle rounded-3">
+                <div class="text-muted">Score</div>
+                <div class="display-6 text-primary">${s.score ?? '-'}</div>
+                <div class="small text-muted">/ ${s.totalQuestions ?? '-'}</div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="p-3 bg-secondary-subtle border border-secondary-subtle rounded-3">
+                <div class="text-muted">Time</div>
+                <div class="display-6">${formatTime(s.timeTaken ?? 0)}</div>
+                <div class="small text-muted">/ ${formatTime(s.totalTime ?? 0)}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="table-responsive mb-3">
+            <table class="table table-sm align-middle">
+              <thead>
+                <tr>
+                  <th>Section</th>
+                  <th class="text-center">Total</th>
+                  <th class="text-center">Answered</th>
+                  <th class="text-center">Correct</th>
+                  <th class="text-center">Incorrect</th>
+                  <th class="text-center">Unattempted</th>
+                </tr>
+              </thead>
+              <tbody>${perSectionHtml}</tbody>
+            </table>
+          </div>
+
+          <div class="d-flex gap-2">
+            <a class="btn btn-primary" href="history.html?id=${attempt.id}">See Solutions</a>
+            <a class="btn btn-outline-primary" href="quiz.html">Retake Quiz</a>
+            <a class="btn btn-outline-secondary" href="index.html">Home</a>
+          </div>
+        `;
+      }
+      document.addEventListener('DOMContentLoaded', render);
+    })();
+  </script>
+</body>
+</html>

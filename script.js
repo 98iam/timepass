@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
         isReviewMode = true;
         clearInterval(timerInterval);
 
-        const negativeMarking = parseFloat(quizSettings.negativeMarking) || 0;
+        const negativeMarking = Math.abs(parseFloat(quizSettings.negativeMarking)) || 0;
         let score = 0, attempted = 0, correct = 0, incorrect = 0;
 
         allQuestions.forEach(q => {
@@ -335,36 +335,58 @@ document.addEventListener('DOMContentLoaded', () => {
 
         resultSummaryEl.classList.remove('d-none');
         resultSummaryEl.innerHTML = `
-            <div class="alert alert-info text-center">
-                <h4 class="alert-heading">Test Results</h4>
-                <p>Your Final Score is <strong>${score.toFixed(2)} / ${allQuestions.length}</strong></p>
-                <hr>
-                <div class="d-flex justify-content-around mb-3">
-                    <div>
-                        <h5>Time</h5>
-                        <p>${formatTime(timeTaken)} / ${formatTime(totalTime)}</p>
+            <div class="card text-center shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="alert-heading mb-0">Test Results</h4>
+                </div>
+                <div class="card-body">
+                    <div class="mb-4">
+                        <h5 class="card-title">Final Score</h5>
+                        <p class="display-4 text-primary font-weight-bold">${score.toFixed(2)} / ${allQuestions.length}</p>
                     </div>
-                    <div>
-                        <h5>Attempted</h5>
-                        <p>${attempted} / ${allQuestions.length}</p>
+                    <hr>
+                    <div class="row justify-content-center my-3">
+                        <div class="col-md-4 col-sm-6 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h6 class="card-subtitle mb-2 text-muted">Time Taken</h6>
+                                    <p class="card-text fs-5">${formatTime(timeTaken)} / ${formatTime(totalTime)}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h6 class="card-subtitle mb-2 text-muted">Questions Attempted</h6>
+                                    <p class="card-text fs-5">${attempted} / ${allQuestions.length}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                             <div class="p-2 bg-success-subtle border border-success-subtle rounded-3 text-center">
+                                <h5>Correct</h5>
+                                <p class="fs-4 text-success mb-0">${correct}</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="p-2 bg-danger-subtle border border-danger-subtle rounded-3 text-center">
+                                <h5>Incorrect</h5>
+                                <p class="fs-4 text-danger mb-0">${incorrect}</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                             <div class="p-2 bg-warning-subtle border border-warning-subtle rounded-3 text-center">
+                                <h5>Unattempted</h5>
+                                <p class="fs-4 text-warning mb-0">${allQuestions.length - attempted}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-around">
-                    <div>
-                        <h5>Correct</h5>
-                        <p class="text-success">${correct}</p>
-                    </div>
-                    <div>
-                        <h5>Incorrect</h5>
-                        <p class="text-danger">${incorrect}</p>
-                    </div>
-                    <div>
-                        <h5>Unattempted</h5>
-                        <p class="text-warning">${allQuestions.length - attempted}</p>
-                    </div>
+                <div class="card-footer text-muted">
+                    You can now review your answers by clicking on the question palette.
                 </div>
-                <hr>
-                <p class="mt-2">You can now review your answers by section.</p>
             </div>
         `;
         
